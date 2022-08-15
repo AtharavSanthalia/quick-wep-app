@@ -1,0 +1,70 @@
+body
+{
+    background-image: linear-gradient(rgb(0, 255, 242),rgba(255, 238, 0, 0.281),rgba(219, 103, 248, 0.473) );
+    
+}
+
+h1
+{
+    color:rgba(38, 0, 255, 0.521);
+    margin-left: 150px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#show_sketch
+{
+    float:right;
+    margin-right: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+    margin-top: 120px;
+}
+@keyframes example {
+
+    from{box-shadow: 1px 10x 38px grey;}
+    to{box-shadow: 1px 10x 38px white;}
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+button
+{
+    border-color: red;
+    border-width: 3px;
+    color :black;
+    background-color: rgb(228, 135, 15);
+    height : 50px;
+    width : 150px;
+    font-family: italic;
+    font-size : 20px;
+}
+#score
+{
+float : left;    
+margin-left: 15px;
+ font-size: 25px;
+ }
+ #Timer
+{
+float : right;    
+margin-right: 100px;
+ font-size: 25px;
+ }
+ #sketch_to_be_drawn
+ {
+   color: red;
+ }
